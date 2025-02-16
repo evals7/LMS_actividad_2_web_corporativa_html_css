@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!,</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="formulario-fondo">
+    <h1>Breaking Bad - ¡Que comience el juego!</h1>
+    <form class="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank">
+        <br>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <br><input type="text" placeholder="Nombre" required>
+            <br>
+            <br><input type="text" placeholder="Apellidos" required>
+            <br>
+            <br><input type="text" placeholder="DNI">
+            <br>
+            <br><input type="text" placeholder="Correo electrónico" required>
+            <br>
+            <br><input type="radio" name="sexo" value="masculino">Masculino
+            <input type="radio" name="sexo" value="femenino">Femenino
+            <br>
+            <br>Fecha de nacimiento: <input type="date" name="nacimiento">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dirección postal</legend>
+            <br><input type="text" placeholder="Calle">
+            <br>
+            <br><input type="text" placeholder="Número">
+            <br>
+            <br><input type="text" placeholder="Piso">
+            <br>
+            <br><input type="text" placeholder="Código postal">
+            <br>
+            <br><input type="text" placeholder="Ciudad">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Sobre la serie</legend>
+            <br><textarea name="text" placeholder="Escribe tu opinión sobre la serie" id=""></textarea>
+            <br>
+            <br>Selecciona tu personaje
+            <br> <select name="personaje">
+                <option value="0"></option>
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros</option>
+            </select>
+        </fieldset>
+        
+        
+        <br>
+        <br><input type="file" name="adjuntos" id="" multiple>
+        <br>
+        <br><input type="submit" value="Enviar"> 
+        <input type="reset" value="Borrar" id="">
+    </form>
+    
+</body>
+</html>

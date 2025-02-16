@@ -1,0 +1,143 @@
+
+/*Requremiento 1. Hoja de estilo para la página principal index.html
+con icono de la saga, texto y un poster con un mapeado que dirige a otras 
+dos páginas. 
+*/
+.img-logo{
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.img-poster{
+    width: 700px;
+    height: 300px;
+    border: 10px, outset;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 22px;
+    
+}
+.pagina-principal{
+    background-image: url(img/fondo.jpg); /*alt a las imagenes en css?*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Breaking Bad ;
+    font-size: X-large;
+    font-weight: 500;
+    color: white;
+    text-align: center;  /*comprobar este text aling, porque alinea tb las imagenes*/
+}
+/*Requerimiento 2. Tipografía facilitada para usar en todo el proyecto*/
+@font-face {
+    font-family: "Breaking Bad";
+    src: url(breaking_b/Breaking\ Bad.ttf);
+}
+
+/*Requerimiento 3: Formulario.html*/
+.formulario-fondo{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    text-align: left;
+}
+
+.formulario{
+    background-color:rgb(0, 0, 0, 0.5);
+    background:linear-gradient(to right, rgba(0,0,0,0.5),rgb(0,0,0,0.0));
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+fieldset{
+    border-color: grey;
+    color: whitesmoke;
+}
+
+/*Requerimiento 4 : Tabla Periódica Breaking Bad*/
+.fondo-pag-tabla{
+    background-color: #0c3e11;
+
+}
+.img-cabecera{
+    background-image: url(img/cabecera.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+}
+table{
+    margin: auto;
+    border: 3px solid;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2B2D23;
+    text-align: center;
+}
+
+td{
+    border: 7px solid #2B2D23;
+    border-color:#2B2D23;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+.empty-cell{
+    background-color: #2B2D23;
+}
+/*Clases para los colores de la tabla periódica*/
+.walter-white-color{
+    background-color: #B8DD16;
+}
+.elliot-schwartz-color{
+    background-color: #D7E888;
+}
+.steven-gomez-color{
+    background-color: #EFF7C9;
+}
+.saul-goodman-color{
+    background-color: #89A418;
+}
+.marie-schrader-color{
+    background-color: #AB8ECD;
+}
+.skinny-pete-color{
+    background-color: #637126;
+}
+.hector-salamanca-color{
+    background-color: #C5E24A;
+}
+.gustavo-fring-color{
+    background-color: #BCC49F;
+}
+.don-eladio-color{
+    background-color: #828F49;
+}
+.table2-color{
+    background-color: #BFC923;
+}
+
+/*Clases para formatos de celdas diferentes*/
+.formato-iniciales{
+    font-size:40px;
+    font-weight: 600;
+    margin: 0px;
+}
+.formato-nombres{
+    font-size: 10px;
+    margin: 0px;
+}
+.formato-imagenes{
+    width: 55px;
+    height: 55px;
+}
+
+.formato-celda{
+    width: 68px;
+}
