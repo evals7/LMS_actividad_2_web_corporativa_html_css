@@ -23,14 +23,15 @@ dos páginas.
 }
 .pagina-principal{
     background-image: url(img/fondo.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Breaking Bad ;
-    font-size: X-large;
+    font-size: 40px;
     font-weight: 500;
     color: white;
-    text-align: center;  /*comprobar este text align, porque alinea tb las imagenes*/
+    text-align: center;
+    align-items: center;
+
 }
 /*Requerimiento 2. Tipografía facilitada para usar en todo el proyecto*/
 
