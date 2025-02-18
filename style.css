@@ -22,7 +22,7 @@ dos páginas.
     
 }
 .pagina-principal{
-    background-image: url(img/fondo.jpg); /*alt a las imagenes en css?*/
+    background-image: url(img/fondo.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ dos páginas.
     font-size: X-large;
     font-weight: 500;
     color: white;
-    text-align: center;  /*comprobar este text aling, porque alinea tb las imagenes*/
+    text-align: center;  /*comprobar este text align, porque alinea tb las imagenes*/
 }
 /*Requerimiento 2. Tipografía facilitada para usar en todo el proyecto*/
 
