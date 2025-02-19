@@ -7,45 +7,59 @@
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="formulario-fondo">
+<body class="fondo-pag-formulario">
     <h1>Breaking Bad - ¡Que comience el juego!</h1>
-    <form class="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank">
         <br>
         <fieldset>
             <legend>Datos personales</legend>
-            <br><input type="text" placeholder="Nombre" required>
-            <br>
-            <br><input type="text" placeholder="Apellidos" required>
-            <br>
-            <br><input type="text" placeholder="DNI">
-            <br>
-            <br><input type="text" placeholder="Correo electrónico" required>
-            <br>
-            <br><input type="radio" name="sexo" value="masculino">Masculino
-            <input type="radio" name="sexo" value="femenino">Femenino
-            <br>
-            <br>Fecha de nacimiento: <input type="date" name="nacimiento">
+
+            <label for="nombre"></label>
+            <input type="text" placeholder="Nombre" id="nombre" required>
+        
+            <label for="apellidos"></label>
+            <input type="text" placeholder="Apellidos" id="apellidos" required>
+            
+            <label for="DNI"></label>
+            <input type="text" placeholder="DNI" id="DNI">
+        
+            <label for="correo_electronico"></label>
+            <input type="text" placeholder="Correo electrónico" id="correo_electronico" required>
+            
+            <label for="sexo"></label>
+            <input type="radio" name="sexo" id="sexo" value="masculino">Masculino
+            <input type="radio" name="sexo" id="sexo" value="femenino">Femenino
+            
+            <label for="fecha_nacimiento"></label>
+            <br>Fecha de nacimiento: <input type="date" id="Fecha_nacimiento" name="nacimiento">
         </fieldset>
         <br>
         <fieldset>
             <legend>Dirección postal</legend>
-            <br><input type="text" placeholder="Calle">
-            <br>
-            <br><input type="text" placeholder="Número">
-            <br>
-            <br><input type="text" placeholder="Piso">
-            <br>
-            <br><input type="text" placeholder="Código postal">
-            <br>
-            <br><input type="text" placeholder="Ciudad">
+
+            <label for="calle"></label>
+            <input type="text" id="calle" placeholder="Calle">
+            
+            <label for="numero"></label>
+            <input type="text" id="numero" placeholder="Número">
+            
+            <label for="piso"></label>
+            <input type="text" id="piso" placeholder="Piso">
+            
+            <label for="codigo_postal"></label>
+            <input type="text" id="codigo_postal" placeholder="Código postal">
+            
+            <label for="ciudad"></label>
+            <input type="text" id="ciudad" placeholder="Ciudad">
         </fieldset>
         <br>
         <fieldset>
             <legend>Sobre la serie</legend>
-            <br><textarea name="text" placeholder="Escribe tu opinión sobre la serie" id=""></textarea>
+            <label for="comentario"></label>
+            <textarea name="text" placeholder="Escribe tu opinión sobre la serie" id="comentario"></textarea>
             <br>
             <br>Selecciona tu personaje
-            <br> <select name="personaje">
+            <select name="personaje">
                 <option value="0"></option>
                 <option value="1">Jessie Pinkman</option>
                 <option value="2">Walter White</option>
@@ -57,11 +71,12 @@
         </fieldset>
         
         
-        <br>
-        <br><input type="file" name="adjuntos" id="" multiple>
-        <br>
-        <br><input type="submit" value="Enviar"> 
-        <input type="reset" value="Borrar" id="">
+        <label for="adjuntos"></label>
+        <input type="file" name="adjuntos" id="adjuntos" multiple>
+        
+        <label for="boton"></label>
+        <input type="submit" value="Enviar" id="boton"> 
+        <input type="reset" value="Borrar" id="boton">
     </form>
     
 </body>
